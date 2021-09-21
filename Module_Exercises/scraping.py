@@ -6,6 +6,7 @@ import datetime as dt
 from webdriver_manager.chrome import ChromeDriverManager
 
 
+
 def scrape_all():
     # Initiate headless driver for deployment
     executable_path = {'executable_path': ChromeDriverManager().install()}
@@ -101,6 +102,3 @@ if __name__ == "__main__":
 
     # If running as script, print scraped data
     print(scrape_all())
-
-
-
